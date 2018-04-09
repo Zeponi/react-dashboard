@@ -5,16 +5,11 @@ class MenuSuperior extends Component {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 				<a href="/" className="navbar-brand">DevMedia</a>
-				<button className="navbar-toogler" type="button" data-toogle="collapse">
-					<span className="navbar-toogler-icon"></span>
-				</butt
-				on>
-				<div className="collapse navbar-collapse" id="navbarNav">
-					<ul className="navbar-nav mr-auto">
-					</ul>
-				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 			</nav>
-		)
+			)
 	}
 }
 
